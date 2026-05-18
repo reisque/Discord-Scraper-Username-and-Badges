@@ -1,0 +1,17 @@
+Requirements
+
+1. Download and install Node.js 18 or newer:
+   https://nodejs.org/en/download
+
+2. Open the project folder in a terminal and install dependencies:
+   npm install
+
+3. Copy .env.example to .env and fill in your Discord token and webhook URL.
+
+4. Run the default script:
+   npm start
+
+5. Optional: run a specific preserved version:
+   npm run start:v1
+   npm run start:v2
+   npm run start:v3

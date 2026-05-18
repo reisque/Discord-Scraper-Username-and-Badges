@@ -1,0 +1,31 @@
+{
+  "name": "discord-username-badge-scraper",
+  "version": "1.0.0",
+  "description": "Selfbot-based Discord username and badge scanner with webhook reporting.",
+  "main": "main.js/version3.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node \"main.js/version3.js\"",
+    "start:v1": "node \"main.js/version 1.js\"",
+    "start:v2": "node \"main.js/version2.js\"",
+    "start:v3": "node \"main.js/version3.js\""
+  },
+  "keywords": [
+    "discord",
+    "selfbot",
+    "username-scanner",
+    "badge-scanner",
+    "webhook",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "discord.js-selfbot-v13": "^3.6.1",
+    "dotenv": "^16.4.7"
+  }
+}
